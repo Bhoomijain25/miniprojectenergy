@@ -1,0 +1,394 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Energy Management</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Marck+Script&family=Playfair+Display&family=Roboto:wght@700&family=Satisfy&display=swap" rel="stylesheet">
+        <style>
+            
+            body{
+                background-image: url("img11.jpg"),linear-gradient(#081018,#081018);
+                background-repeat: no-repeat;
+                background-color: radial-gradient(white 80%,#081018 20%);
+                color: white;
+               
+            }
+            .ani{
+               font-size: 100px;
+               text-shadow: 4px 4px 8px BLACK;
+               text-align: right; 
+               margin: 7vw;
+               color: white;
+               padding: 15px;
+               margin-top: 24vw;
+               margin-right: 5vw;
+               
+           }
+           .short{
+               font-size: 35px;
+           }
+           .quote{
+               font-size: 30px;
+               padding: 5px;
+           }
+           .overlay {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0, 0.9);
+                overflow-x: hidden;
+                transition: 0.5s;
+            }
+
+            .overlay-content {
+                position: relative;
+                top: 25%;
+                width: 100%;
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            .overlay a {
+                padding: 8px;
+                text-decoration: none;
+                font-size: 36px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+            }
+
+            .overlay a:hover, .overlay a:focus {
+                color: #f1f1f1;
+            }
+
+            .overlay .closebtn {
+                position: absolute;
+                top: 20px;
+                right: 45px;
+                font-size: 60px;
+            }
+
+            @media screen and (max-height: 450px) {
+                .overlay a {font-size: 20px}
+                .overlay .closebtn {
+                font-size: 40px;
+                top: 15px;
+                right: 35px;
+            }
+}
+            .head{
+                font-size: 40px;
+                text-align: left;
+                font-weight: 500;
+                margin: 0;
+                padding: 0;
+                color: white;
+                
+                
+                
+            }
+            .para{
+                font-size: 25px;
+                text-align: left;
+                font-weight: 200;
+                padding: 10px;
+                margin: 0;
+                
+            }
+           .h1{
+               font-weight: 600;
+               background-image: radial-gradient(circle,#081018 -50%,white 60%);
+               display: flex;
+               color: #081018;
+           }
+           .menu{
+               font-size: 30px;
+               color: white;
+               text-align: right;
+               
+               
+           }
+           .img{
+               width: 300px;
+               height: 300px;
+               display: block;
+               margin-left: auto;
+               margin-right: auto;
+           }
+           #about{
+            
+            background-image: radial-gradient(circle,#081018 -50%,white 60%);
+            display: flex;
+            color: #081018;
+           }
+           .contain{
+               color: white;
+               height: 600px;
+               width: auto;
+               padding: 7px;
+               background-color:#122335 ; 
+            }
+           form input,button{
+               color: black;
+               font-size: 40px;
+           }
+           .chart{
+               padding-bottom: 40px;
+               padding-left: 225px;
+           }
+           a{
+               color: white;
+               text-decoration: none;
+           }
+           .names{
+               text-align: right;
+           }
+           .wind{
+               font-size: 30px;
+               color: white;
+               padding: 10px;
+               width: 1200px;
+               height: auto;
+           }
+           .turbine{
+               display: flex;
+               right: 0;
+               float: right;
+               z-index: -1;
+               height: 300px;
+               
+            }
+           .link a{
+               color: white;
+               text-decoration: underline;
+               font-size: 25px;
+           }
+        </style>
+    </head>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+    <body>  
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#about">About Energy</a>
+              <a href="#types">Types of Energy</a>
+              <a href="#what">What/Why/How?</a>
+              <a href="#wind">Wind Energy Management</a>
+              <a href="#solar">Solar Energy Management</a>
+              <a href="#links">Important Links</a>
+            </div>
+          </div>
+          <span class="menu" onclick="openNav()">&#9776; MENU</span>
+        
+        
+            <div class="ani">ENERGY MANAGEMENT<br><span class="short">Plan today, Survive tomorrow!</span></div>
+       
+    
+
+    <br><br><br><h1><a id="about" style="font-size:50px">WHAT IS ENERGY?</a></h1>
+
+<p style="font-size:25px">
+    <blockquote style="font-size:30px">Energy is the capacity of a physical system to perform work. 
+        Energy exists in several forms such as heat, kinetic or mechanical energy, light, potential energy, 
+        electrical or other forms. According to the law of conservation of energy, the total energy of a system remains constant, 
+        though energy may transform into another form. For example, two billiard balls colliding, may come to rest, with the resulting
+         energy converting to sound and perhaps a little bit of heat, at the point of collision.</blockquote></p>
+<a><p class="h1" style="font-size:55px" id="types">TYPES OF ENERGY</p></a>
+<P class="head">• Mechanical Energy</P>
+<p class="para">Mechanical energy is energy that results from movement or the location of an object.
+     Mechanical energy is the sum of Kinetic and Potential Energy.</p>
+     <p class="head">•Thermal Energy</p>
+     <p class="para">Thermal energy or heat energy reflects the temperature difference between two systems.</p>
+     <p class="head">• Nuclear Energy</p>
+     <p class="para">Nuclear energy is energy resulting from changes in the atomic nuclei or from nuclear</p>
+     <p class="head">• Chemial Energy</p>
+     <p class="para">Chemical energy results from chemical reactions between atoms or molecules. 
+         There are different types of chemical energy, such as electrochemical energy etc. </p>
+         <p class="head">• Electromagnetic Energy</p>
+         <p class="para">Electromagnetic energy is energy from light or electromagnetic waves.<br><br>
+        
+        <div><p style="color:#081018;font-size: 50px;margin: 0;padding-top: 10px;background-image : radial-gradient(circle,#081018 -50%,white 60%);">ENERGY MANAGEMENT</p>
+            <P style="font-size: 25px;">Energy management includes planning and operation of energy production and energy consumption units as well as energy distribution and storage. Objectives are resource conservation, climate protection and cost savings, while the users have permanent access to the energy they need.
+                It is connected closely to environmental management, production management, logistics and other established business functions.<img src="img12.jpg" style="float: right;padding-top: 25px;"></P><br><br>
+        <p style="font-size:40px;margin: 0;padding-top: 10px;background-image: radial-gradient(circle,#081018 -50%,white 60%);color: #081018;">What is Energy Management?</p>
+        <P style="font-size:25px">"Energy management" is a term that has a number of meanings, but we're mainly concerned with the one that relates to saving energy in businesses, public-sector/government organizations, and homes:</P>
+            <a><DIV class="what" style="font-size:20px" id="what"><P></a>
+            <b style="font-size:25px">The energy-saving meaning<br></b>
+When it comes to energy saving, <b>energy management is the process of monitoring, controlling, and conserving energy in a building or organization</b><br> 
+<p class="typical">Typically this involves the following steps:</p>
+1.	Metering your energy consumption and collecting the data.<br>
+2.	Finding opportunities to save energy, and estimating how much energy each opportunity could save.<br> You would typically analyze your meter data to find and quantify routine energy waste, and you might also investigate the energy savings that you could make by replacing equipment (e.g. lighting) or by upgrading your building's insulation.<br>
+3.	Taking action to target the opportunities to save energy (i.e. tackling the routine waste and replacing or upgrading the inefficient equipment).<br> Typically you'd start with the best opportunities first.<br>
+4.	Tracking your progress by analyzing your meter data to see how well your energy-saving efforts have worked.<br>
+(And then back to step 2, and the cycle continues...)<br><br>
+
+<br><br>
+ 
+
+It's not just about saving energy in buildings – the term "energy management" is also used in other fields:<br>
+	<p class="Further"> •It's something that energy suppliers (or utility companies) do to ensure that their power stations and renewable energy sources generate enough energy to meet demand <br>(the amount of energy that their customers need).
+    <br>•It's used to refer to techniques for managing and controlling one's own levels of personal energy. We're far from qualified to say anything more about this!
+    <br>•It also has relevance in aviation – it's a skill that aircraft pilots learn in some shape or form. We know nothing about aircraft energy management, but we can at least manage a picture of a man on a plane...</p>
+Anyway, from now on we will pay no more attention to these other definitions – all further references to "energy management" will be to the energy-saving sort described above.
+<br><h2>Home energy management</h2><img src="img13.gif" style="width: 400px;height: 300px;float: right;z-index: -1;">
+Whilst energy management has been popular in larger buildings for a long time, it has only recently started catching on in homes. Most homeowners aren't even aware of the term, and take more of a haphazard, flying-blind approach to reducing their energy consumption...<br><br>
+But the monitoring- and results-driven approach used by professional energy managers is just as effective in the home as it is in larger buildings.<br><br>
+So, if you're a homeowner looking to save energy, don't be put off by the fact that this article focuses more on non-residential buildings. Most of the principles that apply to businesses and other organizations are also applicable to homes. Certainly the four-step process introduced above and detailed below is entirely applicable to home energy management.<br><br>
+
+        </P>
+    </DIV>
+    <p style="font-size:40px;background-image: radial-gradient(circle,#081018 -50%,white 60%);color: #081018;">Why it is important?</p>
+    <div class="why"style="font-size:25px"><p>
+        Energy management is the key to saving energy in your organization. Much of the importance of energy saving stems from the global need to save energy – this global need affects energy prices, emissions targets, and legislation, all of which lead to several compelling reasons why you should save energy at your organization specifically.<br>
+
+        <b><h3>The global need to save energy</h3></b>
+        
+        If it wasn't for the global need to save energy, the term "energy management" might never have even been coined... Globally we need to save energy in order to:<br>
+        ·  Reduce the damage that we're doing to our planet, Earth. As a human race we would probably find things rather difficult without the Earth, so it makes good sense to try to make it last.<br>
+        ·  Reduce our dependence on the fossil fuels that are becoming increasingly limited in supply.<br><br>
+
+        
+        <b><h3>Controlling and reducing energy consumption at your organization</h3></b>
+        
+        Energy management is the means to controlling and reducing your organization's energy consumption... And controlling and reducing your organization's energy consumption is important because it enables you to:<br>
+        ·  <b>Reduce costs</b> – this is becoming increasingly important as energy costs rise.<br>
+        ·  <b>Reduce carbon emissions </b>- and the environmental damage that they cause as well as the cost-related implications of carbon taxes and the like, your organization may be keen to reduce its carbon footprint to promote a green, sustainable image. Not least because promoting such an image is often good for the bottom line.<br>
+        ·  <b>Reduce risk</b> – the more energy you consume, the greater the risk that energy price increases or supply shortages could seriously affect your profitability, or even make it impossible for your business/organization to continue. With energy management you can reduce this risk by reducing your demand for energy and by controlling it so as to make it more predictable.<br><br>
+        On top of these reasons, it's quite likely that you have some rather aggressive energy-consumption-reduction targets that you're supposed to be meeting at some worrying point in the near future...<br> Your understanding of effective energy management will hopefully be the secret weapon that will enable you to meet those aggressive targets...<br><br>
+    </p></div>
+    <p style="font-size:40px;background-image: radial-gradient(circle,#081018 -50%,white 60%);color: #081018;">How to manage your energy consumptions?</p>
+    <div class="how" style="font-size:25px"><p>
+        We identified four steps to the energy-management process above. We'll cover each of them in turn:<br><br>
+<b>1. Metering your energy consumption and collecting the data</b><br><br>
+As a rule of thumb: the more data you can get, and the more detailed it is, the better.<br><br>
+The old school approach to energy-data collection is to manually read meters once a week or once a month. This is quite a chore, and weekly or monthly data isn't nearly as good the data that comes easily and automatically from the modern approach.<br><br>
+The modern approach to energy-data collection is to fit interval-metering systems that automatically measure and record energy consumption at short, regular intervals such as every 15-minutes or half hour. <br><br>
+Detailed interval energy consumption data makes it possible to see patterns of energy waste that it would be impossible to see otherwise. For example, there's simply no way that weekly or monthly meter <br>readings can show you how much energy you're using at different times of the day, or on different days of the week. And seeing these patterns makes it much easier to find the routine waste in your building.<br><br>
+ <b>2. Finding and quantifying opportunities to save energy</b><br><br>
+The detailed meter data that you are collecting will be invaluable for helping you to find and quantify energy-saving opportunities. We've written an article that explains more about how to analyze your meter data to find energy waste.<br><br>
+The easiest and most cost-effective energy-saving opportunities typically require little or no capital investment.<br>
+For example, an unbelievable number of buildings have advanced control systems that could, and should, be controlling HVAC well, but, unbeknown to the facilities-management staff, are faulty or misconfigured, and consequently committing such sins as heating or cooling an empty building every night and every weekend.<br><br>
+(NB "HVAC" is just an industry acronym for Heating, Ventilation and Air Conditioning. It's a term that's more widely used in some countries than others.)<br><br>
+And one of the simplest ways to save a significant amount of energy is to encourage staff to switch equipment off at the end of each working day.<br><br>
+Looking at detailed interval energy data is the ideal way to find routine energy waste. You can check whether staff and timers are switching things off without having to patrol the building day and night, and, with a little detective work, you can usually figure out who or what is causing the energy wastage that you will inevitably find.<br><br>
+<img src="img14.png" class="img" style="width:500px;">
+<b><p class="detail" style="text-align:center">Detailed energy data is the key to finding the easiest energy savings<br>
+    (chart created using Energy Lens software)</p></b>
+And, using your detailed interval data, it's usually pretty easy to make reasonable estimates of how much energy is being wasted at different times. For example, if you've identified that a lot of energy is being wasted by equipment left on over the weekends, you can:<br>
+a.	Use your interval data to calculate how much energy (in kWh) is being used each weekend.<br>
+b.	Estimate the proportion of that energy that is being wasted (by equipment that should be switched off).<br>
+c.	Using the figures from a and b, calculate an estimate of the total kWh that are wasted each weekend.<br><br>
+Alternatively, if you have no idea of the proportion of energy that is being wasted by equipment left on unnecessarily, you could:<br>
+i.	Walk the building one evening to ensure that everything that should be switched off is switched off.<br>
+ii.	Look back at the data for that evening to see how many kW were being used after you switched everything off.<br>
+iii.	Subtract the target kW figure (ii) from the typical kW figure for weekends to estimate the potential savings in kW (power).<br>
+iv.	Multiply the kW savings by the number of hours over the weekend to get the total potential kWh energy savings for a weekend.<br><br>
+
+<b><h4>3. Targeting the opportunities to save energy</h4></b>
+Just finding the opportunities to save energy won't help you to save energy – you have to take action to target them...<br><br>
+For those energy-saving opportunities that require you to motivate the people in your building, our article on energy awareness should be useful. It can be hard work, but, if you can get the people on your side, you can make some seriously big energy savings without investing anything other than time.<br><br>
+As for those energy-saving opportunities that require you to upgrade equipment or insulation: assuming you've identified them, there's little more to be said. Just keep your fingers crossed that you make your anticipated savings, and be thankful that you don't work for the sort of organization that won't invest in anything with a payback period over 6 months.<br><br>
+<img src="img15.jpg" class="img">
+<p style="text-align:center;"><b>Insulation – it usually works well, even when it looks like this...</b></p>
+<h4><b>4. Tracking your progress at saving energy</b></h4>
+Once you've taken action to save energy, it's important that you find out how effective your actions have been:<br><br>
+•	Energy savings that come from behavioural changes (e.g. getting people to switch off their computers before going home) need ongoing attention to ensure that they remain effective and achieve their maximum potential.<br>
+•	If you've invested money into new equipment, you'll probably want to prove that you've achieved the energy savings you predicted.<br>
+•	If you've corrected faulty timers or control-equipment settings, you'll need to keep checking back to ensure that everything's still working as it should be. Simple things like a power cut can easily cause timers to revert back to factory settings – if you're not keeping an eye on your energy-consumption patterns you can easily miss such problems.<br>
+<br></p></div>
+
+<p style="font-size:50px;background-image: radial-gradient(circle,#081018 -50%,white 60%);color:black;" id="wind">Wind Energy Management</p>
+<p style="font-size:30px;">Wind power or wind energy is the use of wind turbines to generate electricity. <br>
+    Wind power is a popular, sustainable, renewable energy source <br>that has a much smaller impact on the environment than burning <br>fossil fuels. Wind farms
+    consist of many individual wind turbines, which are <br>connected to the electric power transmission network.
+    <p style="font-size: 45px;">Wind Energy Conservation</p><img src="img16.gif" class="turbine">
+    <p  class="wind">A wind energy conversion system (WECS) is powered by wind energy and generates mechanical energy <br>that sends energy to the electrical <br>
+    generator for making electricity. The generator of the wind turbine can be a permanent<br> 
+    magnet synchronous generator (PMSG), doubly fed induction generator, <br>induction generator, synchronous generator, etc.<br>
+     Wind energy acquired from the wind turbine is sent to the generator. To achieve maximum power from the WECS, <br>the rotational<br> speed of the generator is controlled by a<br> pulse width modulation converter. <br>
+     The output power of the generator is supplied to the<br>
+      grid through a generator-side converter and a grid-side inverter. <br>A wind farm can be distributed in onshore, offshore, seashore, or hilly areas.<br>
+       The WECS might be the most promising DG for future SG. </p>
+</p>
+
+<p style="font-size:50px;background-image: radial-gradient(circle,#081018 -50%,white 60%);color:black;" id="solar">Solar Energy Management</p><img src="img17.jpg" style="width: 400px;height: 300px;float: right;">
+<p style="font-size:30px;">Solar Energy Management is a Tampa Bay-based consulting <br>firm for Solar Power Solutions and Energy Efficient technologies <br>throughout Florida and the Caribbean.
+     Solar Energy Management<br> will assist you in implementing proven solutions to reduce<br> your energy consumption.</p>
+     <p style="font-size: 45px;">How Solar Energy is Converted to Electricity?</p>
+     <p class="wind">The initial step to convert solar energy to electricity is to install Photovoltaic (PV) cells or solar cells. 
+     Photovoltaic means light and electricity. These cells arrest the sun’s energy and convert it into electricity.
+      These solar cells are made of materials that show photovoltaic effect, meaning when the sun rays strike the Photovoltaic cell, 
+     the photons of light spook the electrons inside the cell triggering them to start flowing, ultimately producing electricity.
+     The disparity between the material used to manufacture monocrystalline and polycrystalline lies in the constitution of the silicon
+      substrate utilized to manufacture solar cells and ultimately, solar panels. As the name suggests, polycrystalline implies numerous crystals,
+       while monocrystalline implies a single crystal. The larger the crystal sizes, the more efficient the solar cells, 
+     which explains the reason monocrystalline cells are normally 10 – 15% more efficient than the polycrystalline crystals.</p>
+     
+
+<p id="links" style="font-size:45px;background-image: radial-gradient(circle,#081018 -50%,white 60%);color:black;">Important Links :</p><img src="img18.jpg" class="turbine">
+<p class="link"><span style="font-size: 40px;">Technical Assistance by Governemnt</span><br><br>
+    <a href="https://www.energy.gov/eere/slsc/state-and-local-solution-center">• State and Local Solution Center</a><br>
+    <a href="https://www.energy.gov/indianenergy/request-technical-assistance">• Technical Assistance for Tribes</a><br>
+    <a href="https://www7.eere.energy.gov/femp/training/">• Training for Federal Energy Managers</a><br><br>
+
+</p>
+<p class="link"><span style="font-size: 40px;">Financing and Incentives</span><br><br>
+    <a href="https://www.energy.gov/eere/femp/federal-energy-management-program-funding-opportunities">• Federal Energy Management Program Funding Opportunities</a><br>
+    <a href="https://www.energy.gov/eere/femp/energy-and-project-procurement-development-services">• Energy and Project Procurement Development Services</a><br>
+    <a href="https://www.dsireusa.org/">• Database of State Incentives for Renewables & Efficiency</a><br>
+    <a href=""></a>
+</p>
+
+    <p style="font-size:50px;background-image: radial-gradient(circle,#081018 -50%,white 60%);color:black;">Conclusion :</p>
+    <div class="chart">
+        <img src="img19.jpg">
+    </div>
+    <p style="font-size:20px">The per capita energy consumption is small compared to the average of other countries which have a high human development index.
+        However, India is bound to achieve the basic quality of life, which will also increase the CO2 emissions.
+         In order to achieve low carbon emissions and keeping in pace with the global scenario, every service, may it be lighting, mobility or cooling, will have to be more energy efficient.
+          And to achieve this, the areas where major savings can be made have to identified and technological interventions to achieve energy efficiency in all sectors will be necessary.
+           Contribution of public and increased awareness, along with holistic policy environments directed by BEE, can incentivise energy efficiency effectively.
+            Today, energy efficiency is yet to appeal to a large section of industries and the lack of benchmarks does not encourage its promotion. The demand for energy in India has been consistently increasing and there is enormous potential within sectors for energy conservation.
+             The various policies in the recent years have been effective in reducing costs of systems, conserving energy. Some technologies might be immature and there may be certain benefits which have gone unnoticed. But despite these drawbacks, India can continue to be a surplus
+              nation with concentration on renewable energy sources, smart technologies and promoting energy efficient solutions with proper energy management and conservation.</p>
+   
+    </div>
+    <div class="contain">
+        <p style="font-size: 40px;">Feedback/Suggestions/Advice</p>
+        <form>
+         <input type="text">
+         <button>Submit!</button>
+        </form>
+        <div style="font-size: 20px;padding: 10px;">
+         <p>Contact Us:</p>
+         <a href="#">Instagram</a><br>
+         <a href="#">Facebook</a><br>
+         <a href="#">Twitter</a><br>
+         <a href="#">www.energymanagement.org</a><hr>
+         <div class="names" >
+             <h3>Submitted By:</h3>
+             <p>C-08 Bhoomi Jain</p>
+             <p>C-09 R. Sai Manasa</p>
+             <p>C-17 Sahana Meti</p>
+             <p>C-63 Deeksha Manjunatha B</p>
+         </div>
+        </div>
+        
+     </div>
+ 
+    </body>
+</html>
