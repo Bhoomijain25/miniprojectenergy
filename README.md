@@ -1,0 +1,2 @@
+# miniprojectenergy
+Energy management includes planning and operation of energy production and energy consumption units as well as energy distribution and storage. Objectives are resource conservation, climate protection and cost savings, while the users have permanent access to the energy they need. It is connected closely to environmental management, production management, logistics and other established business functions.
